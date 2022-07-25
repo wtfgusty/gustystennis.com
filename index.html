@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More4Homeless</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <script>
+        const tailwind = tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }, backgroundImage: {
+                        'footer-texture': "url('https://cdn.discordapp.com/attachments/859632407748280341/1001209147116752906/unknown.png')"
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="icon" href="https://media.discordapp.net/attachments/990456333927059526/1001209273965101156/unknown.png">
 
 </head>
 <body>
 
 <!-- Section 1 -->
-<section class="w-full px-3 antialiased bg-indigo-600 lg:px-6" data-tails-scripts="//unpkg.com/alpinejs">
+<section class="w-full px-3 antialiased bg-footer-texture lg:px-6" data-tails-scripts="//unpkg.com/alpinejs">
     <div class="mx-auto max-w-7xl">
         <nav class="flex items-center w-full h-24 select-none" x-data="{ showMenu: false }">
             <div class="relative flex flex-wrap items-center justify-between w-full h-24 mx-auto font-medium md:justify-center">
@@ -45,11 +58,13 @@
         <div class="container py-32 mx-auto text-center sm:px-4">
 
             <h1 class="text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span class="block">Join Us in Helping the Homeless</span></h1>
-            <div class="max-w-lg mx-auto mt-6 text-sm text-center text-indigo-200 md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">Student Run</div>
+            <div class="max-w-lg mx-auto mt-6 text-sm text-center text-indigo-200 md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">An organization made by high schoolers to raise attention about homelessness, host events and fundraisers, and volunteer</div>
 
 
         </div>
     </div>
+
+<!-- photo gallery in development -->
 </section>
 
 
@@ -70,7 +85,7 @@
             <div class="w-full border border-gray-200 rounded-lg shadow-sm">
 
                 <div class="flex flex-col items-center justify-center p-10">
-                    <img class="w-32 h-32 mb-6 rounded-full" src="C:\Users\arjun\Documents\GitHub\thehomelesssaviors.cf\assets\css\images\black-circle-icon-Png-Download-300x300.png">
+                    <img class="w-32 h-32 mb-6 rounded-full" src="./assets/css/images/black-circle-icon-Png-Download-300x300.png">
                     <h2 class="text-lg font-medium">Vedant Padhi</h2>
                     <p class="font-medium text-blue-500">CEO and Founder</p>
                     <p class="text-gray-400">Team member as of 2022
